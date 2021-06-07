@@ -67,7 +67,13 @@ const start = async () => {
       choices: allTodos,
       message: `Finish todos: `
     })
-    console.log(`toDels`, toDels)
+    toDels.map(todoTitle => db.get(`todos`).remove({ title: todoTitle }).write())
+
+    alert({
+      type: `success`,
+      name: `FINISHED`,
+      msg: `${toDels.length} todos`
+    })
   }
   debug && log(flags)
 }

@@ -22,7 +22,11 @@ const flags = {
 };
 
 const commands = {
-  help: { desc: `Print help info` }
+  view: { desc: `View or list all todos` },
+  ls: { desc: `View or list all todos` },
+  add: { desc: `Add a new todo` },
+  del: { desc: `Delete a selected todo` },
+  help: { desc: `Print help info` },
 };
 
 const helpText = meowHelp({

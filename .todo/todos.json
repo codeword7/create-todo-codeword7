@@ -1,3 +1,10 @@
 {
-  "todos": []
+  "todos": [
+    {
+      "title": "do this thing"
+    },
+    {
+      "title": "do second thing"
+    }
+  ]
 }

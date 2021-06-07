@@ -3,6 +3,8 @@
   "description": "CLI to manage todo anywhere",
   "version": "0.0.1",
   "license": "MIT",
+  "main": "index.js",
+	"repository": "codeword7/create-todo-codeword7",
   "bin": {
     "cli-todo-codeword7": "index.js",
     "todo": "index.js"
